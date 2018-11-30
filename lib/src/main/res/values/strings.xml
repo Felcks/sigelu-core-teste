@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">lib</string>
+    <string name="mensagem_gps_inativo">Ative a localização para usar o aplicativo.</string>
+</resources>
