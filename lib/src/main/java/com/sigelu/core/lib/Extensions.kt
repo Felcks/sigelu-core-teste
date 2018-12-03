@@ -24,20 +24,3 @@ fun isGpsAtivo(activity: Activity): Boolean{
     return gpsAtivo
 }
 
-/**
- * Checa se o Gps está ativo. Chama o dialogo de sair do aplicativo caso não esteja
- *
- * @property activity usada para chamar o serviço que confere se o gps está ativo
- * @property body função que é chamada caso gps esteja ativo
- */
-fun checarGpsAtivo(activity: Activity, body: () -> Unit = {}){
-
-    val gpsAtivo = isGpsAtivo(activity)
-    if(!gpsAtivo){
-        Log.i("script2", activity.getString(R.string.mensagem_gps_inativo))
-    }
-    else {
-        body()
-    }
-}
-

@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">lib</string>
-    <string name="mensagem_gps_inativo">Ative a localização para usar o aplicativo.</string>
+
+    <!-- Diálogo deslogar -->
+    <string name="titulo_deslogar">Deslogar usuário</string>
+    <string name="mensagem_deslogar">Ative a localização para usar o aplicativo.</string>
+
+    <!-- Diálogo fechar app -->
+    <string name="titulo_fechar_app">Fechar app</string>
+    <string name="mensagem_fechar_app">Tem certeza que deseja fechar?</string>
+
+    <!-- Diálogo gps inativo -->
+    <string name="titulo_gps_desligado">Localização</string>
+    <string name="mensagem_gps_desligado">Ative a localização para usar o aplicativo.</string>
+
+    <!-- Diálogo gps inativo fora do app -->
+    <string name="titulo_gps_desligado_fora_app">SIGELU</string>
+    <string name="mensagem_gps_desligado_fora_app">É necessário ativar o GPS em alta precisão para o correto funcionamento do aplicativo!</string>
+
 </resources>
