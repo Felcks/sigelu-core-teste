@@ -9,7 +9,7 @@ import java.util.logging.Logger
 /**
  * Retorna true se o gps está ativo, false se não.
  *
- * @property activity usada para chamar o serviço que confere se o gps está ativo
+ * @param activity usada para chamar o serviço que confere se o gps está ativo
  */
 fun isGpsAtivo(activity: Activity): Boolean{
 
